@@ -5,13 +5,13 @@
     --font-main: 'Roboto', sans-serif;
     --font-title: 'Quicksand', sans-serif;
 
-    --color-primary: #000;
-    --color-primary-variant-1: #333;
-    --color-secondary: #fff;
-    --color-secondary-variant-1: #eee;
-    --color-secondary-variant-2: #ccc;
-    --color-secondary-variant-3: #999;
-    --color-secondary-variant-4: #888;
+    --color-primary: #263238;
+    --color-primary-variant-1: #37474F;
+    --color-secondary: #ECEFF1;
+    --color-secondary-variant-1: #CFD8DC;
+    --color-secondary-variant-2: #B0BEC5;
+    --color-secondary-variant-3: #90A4AE;
+    --color-secondary-variant-4: #78909C;
 
 }
 
@@ -239,6 +239,7 @@ footer li {
 }
 .nav-menu > li > a:hover {
     text-decoration: none;
+    color: var(--color-primary);
     background-color: var(--color-secondary-variant-2);
 }
 
