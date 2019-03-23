@@ -31,6 +31,7 @@ body {
     margin: 0;
     font-family: var(--font-main);
     line-height: 1.6;
+    background-color: var(--color-secondary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -158,6 +159,10 @@ main, footer {
 footer{
     background-color: var(--color-primary);
     color: var(--color-secondary);
+}
+
+footer li {
+    margin: 1.2em 0;
 }
 
 /* RESPONSIVE MENU */
