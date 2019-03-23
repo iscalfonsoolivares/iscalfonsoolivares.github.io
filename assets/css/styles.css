@@ -39,18 +39,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
-    color: #1476b8;
+    color: var(--color-secondary-variant-4);
     font-weight: bold;
     text-decoration: none;
 }
 a:visited {
-    color: #1430b8;
+    color: var(--color-secondary-variant-3);
 }
 a:hover {
     text-decoration: underline;
+    
 }
 a:active {
-    color: #b81414;
+    color: var(--color-secondary-variant-3);
 }
 
 /* HEADER */
@@ -231,6 +232,11 @@ footer{
     color: var(--color-secondary-variant-3);
     font-weight: normal;
 }
+.nav-menu > li > a:hover {
+    text-decoration: none;
+    background-color: var(--color-secondary-variant-2);
+}
+
 @media (min-width: 35em) {
     .nav-menu {
         display: flex;
