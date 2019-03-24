@@ -1,6 +1,6 @@
 :root {
     box-sizing: border-box;
-    font-size: calc(1vw + 0.8em);
+    font-size: calc(1vw + 0.9em);
         
     --font-main: 'Roboto', sans-serif;
     --font-title: 'Quicksand', sans-serif;
@@ -60,27 +60,21 @@ a:active {
 .page-header {
     padding: 0.4em 1em;
     background-color: var(--color-secondary);
-    /*
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
-    */
 }
 @media (min-width: 35em) {
     .page-header {
         padding: 1em;
-        /* position: static; */
     }
 }
 @media (min-width: 50em) {
     .page-header {
-    padding: 1em 4em;
+        padding: 1em 4em;
     }
 }
 .title > h1 {
     color: var(--color-primary-variant-1);
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0.2em 0;
 }
 @media (min-width: 35em) {
@@ -172,20 +166,6 @@ footer li {
 .menu {
     position: relative;
 }
-
-/*
-.menu {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 5rem;
-}
-@media (min-width: 35em) {
-    .menu {
-        position: relative;
-        top: initial;
-    }
-}
-*/
 
 .menu-toggle {
     position: absolute;
