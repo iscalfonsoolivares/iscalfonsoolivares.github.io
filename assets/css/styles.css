@@ -6,7 +6,7 @@
     --font-title: 'Quicksand', sans-serif;
 
     --color-primary: #263238;
-    --color-primary-variant-1: #37474F;
+    --color-primary-alternative: #37474F;
     --color-secondary: #ECEFF1;
     --color-secondary-variant-1: #CFD8DC;
     --color-secondary-variant-2: #B0BEC5;
@@ -153,7 +153,7 @@ main, footer {
 /* FOOTER */
 
 footer{
-    background-color: var(--color-primary-variant-1);
+    background-color: var(--color-primary-alternative);
     color: var(--color-secondary);
 }
 
