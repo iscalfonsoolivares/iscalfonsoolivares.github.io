@@ -60,14 +60,16 @@ a:active {
 .page-header {
     padding: 0.4em 1em;
     background-color: var(--color-secondary);
+    /*
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
+    */
 }
 @media (min-width: 35em) {
     .page-header {
         padding: 1em;
-        position: static;
+        /* position: static; */
     }
 }
 @media (min-width: 50em) {
@@ -167,6 +169,7 @@ footer li {
 
 /* RESPONSIVE MENU */
 
+/*
 .menu {
     position: -webkit-sticky;
     position: sticky;
@@ -178,6 +181,7 @@ footer li {
         top: initial;
     }
 }
+*/
 
 .menu-toggle {
     position: absolute;
@@ -234,7 +238,7 @@ footer li {
 .nav-menu > li > a {
     display: block;
     padding: 2em;
-    color: var(--color-secondary-variant-3);
+    color: var(--color-secondary-variant-4);
     font-weight: normal;
 }
 .nav-menu > li > a:hover {
