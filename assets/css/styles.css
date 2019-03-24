@@ -169,6 +169,10 @@ footer li {
 
 /* RESPONSIVE MENU */
 
+.menu {
+    position: relative;
+}
+
 /*
 .menu {
     position: -webkit-sticky;
