@@ -221,7 +221,7 @@ footer li {
 }
 .nav-menu > li > a {
     display: block;
-    padding: 1.5em;
+    padding: 1.2em;
     color: var(--color-primary);
     font-weight: normal;
 }
