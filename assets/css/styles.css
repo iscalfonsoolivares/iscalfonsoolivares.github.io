@@ -242,12 +242,11 @@ footer li {
 .nav-menu > li > a {
     display: block;
     padding: 2em;
-    color: var(--color-secondary-variant-4);
+    color: var(--color-primary);
     font-weight: normal;
 }
 .nav-menu > li > a:hover {
     text-decoration: none;
-    color: var(--color-primary);
     background-color: var(--color-secondary-variant-2);
 }
 
