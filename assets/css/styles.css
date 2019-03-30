@@ -59,7 +59,7 @@ a:active {
 
 .page-header {
     padding: 0.4em 1em;
-    background-image:  linear-gradient(to bottom, #FFF, var(--color-secondary));
+    background-image:  linear-gradient(to bottom, var(--color-secondary-variant-1), var(--color-secondary));
 }
 @media (min-width: 35em) {
     .page-header {
