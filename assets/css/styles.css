@@ -144,19 +144,6 @@ main, footer {
     }
 }
 
-/* CONTENT CLASSES */
-
-.wrapper{
-    max-width: 40em;
-    margin: auto;
-}
-.subtitle {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-}
-
 /* FOOTER */
 
 footer{
@@ -263,6 +250,16 @@ footer li {
 
 /* UTILS */
 
+.wrapper{
+    max-width: 40em;
+    margin: auto;
+}
+.subtitle {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
 .responsive {
     width: 100%;
     height: auto;
