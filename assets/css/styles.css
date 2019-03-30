@@ -59,7 +59,7 @@ a:active {
 
 .page-header {
     padding: 0.4em 1em;
-    background-color: var(--color-secondary);
+    background-image:  linear-gradient(to bottom, var(--color-secondary-variant-1), var(--color-secondary));
 }
 @media (min-width: 35em) {
     .page-header {
@@ -71,18 +71,18 @@ a:active {
         padding: 1em 4em;
     }
 }
-.title > h1 {
+.page-header__title > h1 {
     color: var(--color-primary);
     text-transform: uppercase;
     font-size: 1.2rem;
     margin: 0.2em 0;
 }
 @media (min-width: 35em) {
-    .title > h1 {
+    .page-header__title > h1 {
         font-size: 2.25rem;
     }
 }
-.slogan {
+.page-header__slogan {
     color: var(--color-secondary-variant-4);
     font-size: 0.875em;
     margin: 0;
@@ -93,8 +93,11 @@ a:active {
 .hero {
     padding: 2em 1em;
     text-align: center;
-    background-color: var(--color-primary);
-    background-size: 100%;
+    background-attachment: fixed;    
+    background-image: url("/assets/imgs/hero.jpg"), linear-gradient(to bottom, var(--color-primary), #000);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
     color: var(--color-secondary);
 }
 @media (min-width: 35em) {
@@ -224,6 +227,7 @@ footer li {
     padding: 1.2em;
     color: var(--color-primary);
     font-weight: normal;
+    transition: background-color 0.4s linear;
 }
 .nav-menu > li > a:hover {
     text-decoration: none;
