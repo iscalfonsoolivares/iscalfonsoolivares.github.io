@@ -8,6 +8,7 @@
     --color-primary: hsl(200, 19%, 18%);
     --color-primary-alternative: hsl(200, 18%, 35%);
     --color-secondary: hsl(200, 15%, 94%);
+    --color-secondary-variant-1: hsl(200, 16%, 84%);
     --color-secondary-variant-2: hsl(200, 15%, 73%);
     --color-secondary-variant-3: hsl(200, 16%, 62%);
     --color-secondary-variant-4: hsl(200, 15%, 54%);;
@@ -61,7 +62,7 @@ header {
     z-index: 1;
     top:0;
     width: 100%;
-    background-color: var(--color-secondary-variant-2);
+    background-color: var(--color-secondary);
     border-bottom: 1px solid var(--color-secondary-variant-3);
 }
 
@@ -236,7 +237,7 @@ footer .row a {
     padding-left: 0;
     border: 1px solid var(--color-secondary-variant-2);
     list-style: none;
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary-variant-1);
 }
 .nav-menu > li + li {
     border-top: 1px solid var(--color-secondary-variant-2);
@@ -289,7 +290,7 @@ footer .row a {
 
 .button:hover{
     text-decoration: none;
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary-variant-1);
 }
 
 .button--success {
