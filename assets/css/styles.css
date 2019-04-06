@@ -5,13 +5,13 @@
     --font-main: 'Roboto', sans-serif;
     --font-title: 'Quicksand', sans-serif;
 
-    --color-primary: #263238;
-    --color-primary-alternative: hsla(200, 18%, 35%, 1);
-    --color-secondary: #ECEFF1;
-    --color-secondary-variant-1: #CFD8DC;
-    --color-secondary-variant-2: #B0BEC5;
-    --color-secondary-variant-3: #90A4AE;
-    --color-secondary-variant-4: #78909C;
+    --color-primary: hsl(200, 19%, 18%);
+    --color-primary-alternative: hsl(200, 18%, 35%);
+    --color-secondary: hsl(200, 15%, 94%);
+    --color-secondary-variant-1: hsl(200, 16%, 84%);
+    --color-secondary-variant-2: hsl(200, 15%, 73%);
+    --color-secondary-variant-3: hsl(200, 16%, 62%);
+    --color-secondary-variant-4: hsl(200, 15%, 54%);;
 
 }
 
@@ -59,7 +59,7 @@ a:active {
 
 .page-header {
     padding: 0.4em 1em;
-    background-image:  linear-gradient(to bottom, var(--color-secondary-variant-1), var(--color-secondary));
+    background-image: var(--color-secondary);
 }
 @media (min-width: 35em) {
     .page-header {
