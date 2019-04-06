@@ -6,7 +6,7 @@
     --font-title: 'Quicksand', sans-serif;
 
     --color-primary: #263238;
-    --color-primary-alternative: #37474F;
+    --color-primary-alternative: hsla(200, 18%, 35%, 1);
     --color-secondary: #ECEFF1;
     --color-secondary-variant-1: #CFD8DC;
     --color-secondary-variant-2: #B0BEC5;
@@ -153,6 +153,10 @@ footer{
 
 footer li {
     margin: 1.2em 0;
+}
+
+footer .row a {
+    color: var(--color-secondary);
 }
 
 /* RESPONSIVE MENU */
