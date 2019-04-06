@@ -57,9 +57,34 @@ a:active {
 
 /* HEADER */
 
+header {
+    position:fixed;
+    z-index: 1;
+    top:0;
+    width: 100%;
+    background-color: var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary-variant-3);
+}
+
+header + * {
+    margin-top: 4.6em;
+}    
+
+@media (min-width: 35em) {
+    header {
+        position:static;
+        border-bottom: initial;
+    }
+    header + * {
+        margin-top: initial;
+    }    
+}
+
+/* PAGE HEADER */
+
 .page-header {
     padding: 0.4em 1em;
-    background-image: var(--color-secondary);
+    background-color: var(--color-secondary);
 }
 @media (min-width: 35em) {
     .page-header {
