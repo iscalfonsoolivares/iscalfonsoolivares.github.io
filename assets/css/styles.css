@@ -248,6 +248,9 @@ footer .row a {
     font-weight: normal;
     transition: background-color 0.4s linear;
 }
+.nav-menu > li.active > a{
+    background-color: var(--color-secondary-variant-3);
+}
 .nav-menu > li > a:hover {
     text-decoration: none;
     background-color: var(--color-secondary-variant-2);
