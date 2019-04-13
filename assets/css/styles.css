@@ -11,7 +11,7 @@
     --color-secondary-variant-1: hsl(200, 16%, 84%);
     --color-secondary-variant-2: hsl(200, 15%, 73%);
     --color-secondary-variant-3: hsl(200, 16%, 62%);
-    --color-secondary-variant-4: hsl(200, 15%, 54%);;
+    --color-secondary-variant-4: hsl(200, 15%, 54%);
 
 }
 
@@ -312,6 +312,7 @@ footer .row a {
     margin-bottom: 1.5em;
     font-size: 1.3rem;
     text-transform: uppercase;
+    color: var(--color-secondary-variant-3);
 }
 .responsive {
     width: 100%;
