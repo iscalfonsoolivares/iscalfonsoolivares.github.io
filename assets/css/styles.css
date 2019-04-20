@@ -116,12 +116,8 @@ header + * {
 
 .hero {
     padding: 2em 1em;
-    text-align: center;
-    background-attachment: fixed;    
-    background-image: url("/assets/imgs/hero.jpg"), linear-gradient(to bottom, var(--color-primary-alternative) , #000);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
+    text-align: center;    
+    background-image: linear-gradient(to bottom, var(--color-primary) , var(--color-primary-alternative));
     color: var(--color-secondary);
 }
 @media (min-width: 35em) {
@@ -293,12 +289,6 @@ footer .row a {
 .button:hover{
     text-decoration: none;
     background-color: var(--color-secondary-variant-1);
-}
-
-.button--success {
-    border-color: #cfe8c9;
-    color: #fff;
-    background-color: #2f5926;
 }
 
 /* UTILS */
