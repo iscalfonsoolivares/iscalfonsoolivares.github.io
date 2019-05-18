@@ -95,6 +95,16 @@ header + * {
         padding: 1em 4em;
     }
 }
+
+@media (min-width: 60em) {
+    .page-header {
+        max-width: 60em;
+        margin:auto;
+    }
+}
+
+
+
 .page-header__title > h1 {
     color: var(--color-primary);
     text-transform: uppercase;
@@ -151,6 +161,13 @@ main, footer {
         padding: 2em 4em;
     }
 }
+@media (min-width: 60em) {
+    main, .x {
+        max-width: 60em;
+        margin:auto;
+    }
+}
+
 @media (min-width: 35em) {
     .row {
         display: flex;
@@ -224,6 +241,7 @@ footer .row a {
     .menu-dropdown {
         display: block;
         position: static;
+        background-color: var(--color-secondary-variant-1);
     }
 }
 
@@ -274,6 +292,14 @@ footer .row a {
         padding: 0 4em;
     }
 }
+
+@media (min-width: 60em) {
+    .nav-menu {
+        max-width: 60em;
+        margin:auto;
+    }
+}
+
 
 /* BUTTON */
 
