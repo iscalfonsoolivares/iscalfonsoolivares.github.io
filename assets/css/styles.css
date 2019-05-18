@@ -96,9 +96,9 @@ header + * {
     }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 75em) {
     .page-header {
-        max-width: 60em;
+        max-width: 75em;
         margin:auto;
     }
 }
@@ -148,22 +148,22 @@ header + * {
 
 /* LAYOUT */
 
-main, footer {
+main, .page-footer {
     padding: 1em;
 }
 @media (min-width: 35em) {
-    main, footer {
+    main, .page-footer {
         padding: 2em 1em;
     }
 }
 @media (min-width: 50em) {
-    main, footer {
+    main, .page-footer {
         padding: 2em 4em;
     }
 }
-@media (min-width: 60em) {
-    main, .x {
-        max-width: 60em;
+@media (min-width: 75em) {
+    main, .page-footer {
+        max-width: 75em;
         margin:auto;
     }
 }
@@ -293,9 +293,9 @@ footer .row a {
     }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 75em) {
     .nav-menu {
-        max-width: 60em;
+        max-width: 75em;
         margin:auto;
     }
 }
