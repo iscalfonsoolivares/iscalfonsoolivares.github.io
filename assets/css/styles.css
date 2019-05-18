@@ -95,15 +95,12 @@ header + * {
         padding: 1em 4em;
     }
 }
-
 @media (min-width: 75em) {
     .page-header {
         max-width: 75em;
         margin:auto;
     }
 }
-
-
 
 .page-header__title > h1 {
     color: var(--color-primary);
