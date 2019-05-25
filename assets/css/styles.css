@@ -1,6 +1,6 @@
 :root {
     box-sizing: border-box;
-    font-size: calc(1vw + 0.9em);
+    font-size: calc(1vw + 0.7em);
         
     --font-main: 'Roboto', sans-serif;
     --font-title: 'Quicksand', sans-serif;
@@ -15,7 +15,7 @@
 
 }
 
-@media (min-width: 50em) {
+@media (min-width: 35em) {
     :root {
         font-size: 1.125em;
     }
