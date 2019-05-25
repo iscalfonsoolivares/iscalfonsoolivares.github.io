@@ -21,6 +21,12 @@
     }
 }
 
+@media (min-width: 75em) {
+    :root {
+        font-size:  1.125em;
+    }
+}
+
 *,
 *::before,
 *::after {
